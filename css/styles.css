@@ -80,6 +80,7 @@ img {
   margin-right: 50px;
   display: flex;
     align-items: center;
+    transition: var(--main-duration) var(--timing-function);
 }
 .logo {
   font-family: var(--secondery-font);
@@ -158,6 +159,7 @@ img {
   color: var(--text-gray);
      display: flex;
     align-items: center;
+    transition: var(--main-duration) var(--timing-function);
 }
 
 .mil-link:hover,
@@ -387,6 +389,7 @@ padding-top: 94px;
     height:44px;
     border-radius: 50%;
     background-color: #FFFFFF;
+    transition: var(--main-duration) var(--timing-function);
 }
 
 .list-icon {
@@ -498,6 +501,7 @@ border-radius: 0px 0px 4px 4px;
     border:1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+    transition: var(--main-duration) var(--timing-function);
     
 }
 .clients-icon  {
@@ -598,6 +602,7 @@ border-color: var(--acsent-color);
     height: 44px;
     border-radius: 50%;
     color: #afb1b8;
+    transition: var(--main-duration) var(--timing-function);
     }
     .social-link:hover,
     .social-link:focus{
@@ -685,7 +690,7 @@ ul {
    padding: 6px 22px 6px 22px;
    display: flex;
   border-radius: 4px;
-   
+  transition: var(--main-duration) var(--timing-function);
 }
 
 .modal-btn:hover,
@@ -792,9 +797,9 @@ width: 100%;
 height: 100%;
 visibility: visible;
 background-color:rgba(0, 0, 0, 0.2);
-opacity: 1;
+opacity:1;
 }
-.backdrop. is-hidden {
+.backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events:none;
