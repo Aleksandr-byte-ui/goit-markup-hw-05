@@ -136,10 +136,10 @@ img {
   opacity: 1;
 }
 
-.header-conteiner .menu-link .current{
+.header-conteiner .menu-link.links{
   color:var(--acsent-color);
 }
-.header-conteiner .menu-link.current::after {
+.header-conteiner .menu-link.links::after {
   transform: scaleX(1);
   opacity: 1;
 }
@@ -705,6 +705,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 .links:visited {
   color:var(--acsent-color)
+
 }
 
 .portfolio-list {
